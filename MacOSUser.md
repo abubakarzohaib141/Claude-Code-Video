@@ -1,28 +1,26 @@
 # Claude Code CLI — macOS Installation
 
-A simple guide to installing **Claude Code** on macOS.
-
-Claude Code is Anthropic's agentic coding tool that runs in your terminal and can understand and work with your codebase.
-
----
-
-## Requirements
-
-- macOS
-- An internet connection
-- A Claude account
-
----
+Install Claude Code CLI on macOS in a few simple steps.
 
 ## 1. Open Terminal
 
 Open **Terminal** on your Mac.
 
-You can find it by:
+You can press:
 
-**Applications → Utilities → Terminal**
+`Command (⌘) + Space`
 
-Or press:
+Then search for:
 
-```text
-Command (⌘) + Space
+`Terminal`
+
+---
+
+## 2. Install Claude Code
+
+Run this command in Terminal:
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+
+```
