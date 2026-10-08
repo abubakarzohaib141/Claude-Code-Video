@@ -16,3 +16,11 @@ Run:
 
 ```powershell
 irm https://claude.ai/install.ps1 | iex
+```
+
+### For downloading claude code cli in cmd use this command 
+Run : 
+
+```cmd
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
